@@ -1,2 +1,5 @@
-# Calculator-bot-Ai-
+# calculator.py
 Addtion
+subtraction 
+multiplication 
+division

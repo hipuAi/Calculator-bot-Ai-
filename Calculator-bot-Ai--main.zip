@@ -1,0 +1,15 @@
+print("Calculator Bot Started!")
+print("Type 'exit' to quit")
+
+while True:
+    user = input("Enter calculation: ")
+
+    if user.lower() == "exit":
+        print("Goodbye!")
+        break
+
+    try:
+        result = eval(user)
+        print("Answer =", result)
+    except:
+        print("Invalid calculation!")
